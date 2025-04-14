@@ -1,6 +1,6 @@
 What issues will you address by cleaning the data?
 
-To clean the data, I focused on three tables: all_sessions, products, and sales_by_sku. I chose these because sales_by_sku was already quite clean, less dense and similar to sales_report. In all_sessions, I removed many columns that were irrelevant to the analysis or filled with NULLs or missing values. This helped simplify the dataset and made it easier to see the actual data. I also could have normalized better thr tables,for example, by moving product-related data from all_sessions to the products table but due to time constraints, I prioritized the analysis.
+To clean the data, I focused on three tables: all_sessions, products, and sales_by_sku. I chose these because sales_by_sku was already quite clean, less dense and similar to sales_report. In all_sessions, I removed many columns that were irrelevant to the analysis or filled with NULLs or missing values. This helped simplify the dataset and made it easier to see the actual data. I also could have normalized better the tables,for example, by moving product-related data from all_sessions to the products table but due to time constraints, I prioritized the analysis.
 
 I also checked for duplicates, like productSKU in products or sales_by_sku. I saw duplicate fullVisitorID values, but this made sense since a visitor can go on the site multiple times.
 
