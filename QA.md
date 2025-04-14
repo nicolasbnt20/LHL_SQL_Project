@@ -30,6 +30,8 @@ FROM products
 GROUP BY "productSKU"
 HAVING COUNT(*) > 1; 
 
+(The * in some () won't display on screen for unknown reasons)
+
 SELECT *
 FROM all_sessions
 WHERE "timeOnsite" < 0;
